@@ -63,9 +63,10 @@ To check if the nodes are ready to do a switchover or switchback operation, run 
 +
 Follow the steps for installing switch software in the relevant section in the _MetroCluster IP Installation and Configuration Guide_ depending on whether the switch type is Cisco or Broadcom:
 +
-link:../install-ip/task_install_and_cable_the_mcc_components.html
-
+* link:https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/task_switch_config_cisco.html[Configuring Cisco IP switches]
+* link:https://docs.netapp.com/us-en/ontap-metrocluster/install-ip/task_switch_config_broadcom.html[Configuring Broadcom IP switches]
++
 Repeat this step for each of the switches.
++
 // BURT 1380522
-
 . Repeat step 1 to check the health of the configuration.
